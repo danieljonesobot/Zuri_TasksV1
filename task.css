@@ -1,0 +1,738 @@
+/* STYLING FOR HOVER EFFECT */
+
+/* body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #151b29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+button {
+    background: none;
+    border: 2px solid;
+    color: #ffa260;
+    padding: 1rem 3rem;
+    font-size: 2em;
+    transition: 1s;
+}
+
+
+button:hover {
+    border-color: #f1ff5c;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0em 0.5em 0.5em yellow;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+} */
+
+
+
+
+
+
+
+/* styling sheet for table */
+
+/* body {
+    background-color: #333;
+}
+
+table,
+tr,
+th {
+    border: 1px solid #333;
+    border-spacing: 5px;
+    padding: 5px;
+
+}
+
+
+thead {
+    background-color: #03045e;
+    color: white;
+    font-size: 2rem;
+}
+
+
+
+.columnHeaders {
+    background-color: #3a0ca3;
+    color: white;
+}
+
+td {
+    background: #3a0ca3;
+    border: 1px solid #333;
+    color: white;
+    transition: 0.25s;
+}
+
+td:hover {
+    border-color: #f1ff5c;
+    color: yellow;
+    border-radius: 5px;
+    box-shadow: 0em 0.5em 0.5em yellow;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+} */
+
+
+
+
+/* MAIN --STYLING FOR LINKED PAGES */
+
+html,
+body {
+    margin: 0%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    background-color: white;
+    margin: 0px;
+}
+
+
+
+#navigation {
+    background-color: #240046;
+    color: white;
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#navigation a {
+    text-decoration: none;
+}
+
+
+#navigation div {
+    margin: 0px 30px 0px 30px;
+    padding: 5px;
+    color: white;
+    border: 1px solid black;
+    width: 150px;
+    height: 20px;
+    background-color: #9d4edd;
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+
+p {
+    line-height: 2;
+}
+
+
+section {
+    margin: 0px 150px 0px 150px;
+    color: #6d6875;
+}
+
+
+
+.firstSection {
+    background-color: #240046;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.imgContainer img {
+    border: 3px solid white;
+    border-radius: 50%;
+
+}
+
+
+img:hover {
+    border: 3px solid gold;
+    box-shadow: 120px yellow;
+
+}
+
+.imgContainer {
+    margin: 50px 50px 0px 50px;
+    height: 300px;
+    flex-grow: 2;
+
+}
+
+
+
+
+.aboutmeContainer {
+    margin-right: 70px;
+    height: 300px;
+    flex-grow: 1;
+}
+
+
+
+/* Footer Markup */
+
+
+footer {
+    padding: 25px;
+    height: 400px;
+    background-color: #240046;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer h3 {
+    font-size: 25px;
+}
+
+.footerContact {
+    /* border: 1px solid black; */
+    flex-grow: 2;
+}
+
+
+.footerMail {
+    /* border: 1px solid black; */
+    flex-grow: 1;
+}
+
+
+
+.footerMail,
+#name,
+#email {
+    width: 400px;
+    height: 50px;
+}
+
+
+
+.footerMail textarea:nth-of-type(1) {
+    width: 400px;
+}
+
+
+
+
+button {
+    width: 150px;
+    height: 50px;
+    background-color: #9d4edd;
+    color: white;
+    font-size: 1.2em;
+    border: 1px solid #9d4edd;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+
+#bigBtn {
+    width: 400px;
+    height: 60px;
+    background-color: #9d4edd;
+    color: white;
+    font-size: 1.2em;
+    border: 1px solid #9d4edd;
+}
+
+#bigBtn:hover {
+    cursor: pointer;
+}
+
+
+
+
+/* styling for contact page */
+
+#mainBox {
+    background-color: #10002b;
+    display: flex;
+    justify-content: space-between;
+    height: 1000px;
+}
+
+#firstBox {
+    height: 500px;
+    width: 80px;
+    margin: 20px 50px 20px 50px;
+    padding: 25px;
+    background-color: none;
+    color: white;
+    flex-grow: 2;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: -3px -3px 9px #aaa9a9a2, 3px 3px 7px rgba(147, 149, 151, 0.671);
+}
+
+
+
+#secondBox {
+    height: 500px;
+    width: 80px;
+    margin: 20px 50px 20px 50px;
+    padding: 25px;
+    background-color: #00000000;
+    flex-grow: 2;
+    border: 1px solid black;
+    border-radius: 25px;
+    color: white;
+    box-shadow: -3px -3px 9px #aaa9a9a2, 3px 3px 7px rgba(147, 149, 151, 0.671);
+}
+
+
+
+#fullName,
+#fullEmail {
+    width: 400px;
+    height: 50px;
+    background-color: #00000000;
+    color: white;
+    box-shadow: -3px -3px 9px #aaa9a9a2, 3px 3px 7px rgba(147, 149, 151, 0.671);
+}
+
+
+#comment {
+    width: 400px;
+    background-color: #00000000;
+    color: white;
+    box-shadow: -3px -3px 9px #aaa9a9a2, 3px 3px 7px rgba(147, 149, 151, 0.671);
+}
+
+
+#contactFormBtn {
+    width: 400px;
+}
+
+
+
+/* Registration Page */
+
+.regBox {
+
+    background-color: white;
+    margin: 100px 0px 100px 0px;
+    border: 2px solid #00000000;
+    border-radius: 10px;
+    box-shadow: -3px -3px 9px #aaa9a9a2, 3px 3px 7px rgba(147, 149, 151, 0.671);
+    width: 600px;
+    height: 800px;
+    transition: 0.5s;
+}
+
+.regBox:hover {
+    transform: translateY(-0.50em);
+}
+
+.regForm {
+    margin: 50px 30px 50px 60px;
+    padding: 10px 50px 20px;
+
+}
+
+.regForm #gender,
+#regFirstname,
+#regLastname,
+#phone,
+#country,
+#state,
+#regEmail,
+#password,
+#confirm-password {
+    width: 350px;
+    height: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+
+
+.regBtn {
+    display: flex;
+    justify-content: center;
+}
+
+
+.regBtn button {
+    width: 300px;
+}
+
+.regBtn button:hover {
+    background-color: #cdb4db;
+}
+
+
+
+/* Styling for Login page */
+
+.content {
+    width: 330px;
+    border-radius: 10px;
+    padding: 40px 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    box-shadow: -3px -3px 9px #aaa9a9a2, 3px 3px 7px rgba(147, 149, 151, 0.671);
+    transition: 0.5s;
+}
+
+.content:hover {
+    transform: translateY(-0.25em);
+}
+
+.formTitle {
+    color: white;
+    font-size: 1.7em;
+    text-align: center;
+    border-bottom: 1px solid gainsboro;
+}
+
+#logEmail,
+#logPwd {
+    width: 100%;
+    height: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    background-color: #00000000;
+    color: white;
+
+}
+
+
+.field input::placeholder {
+    color: #e0d2d2a6;
+}
+
+
+.field span {
+    position: absolute;
+    width: 50px;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+
+.logBtn {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* Responsiveness -Media Queries */
+
+@media screen and (max-width: 1050px) {
+    #navigation {
+        /* flex-direction: column; */
+        justify-content: center;
+    }
+
+    .firstSection {
+        flex-direction: column;
+        height: 1000px;
+        padding: 40px;
+    }
+
+    footer {
+        padding: 55px;
+        /* height: 400px;
+            background-color: #240046;
+            color: white;
+            display: flex;
+            justify-content: space-between; */
+    }
+
+    #mainBox {
+        flex-direction: column;
+        height: 1500px;
+        width: 100%;
+    }
+
+
+    #firstBox,
+    #secondBox {
+        width: 800px;
+    }
+}
+
+
+@media screen and (max-width:909px) {
+    #navigation {
+        flex-direction: column;
+    }
+
+    #navigation div {
+        width: 500px;
+    }
+
+    #firstBox,
+    #secondBox {
+        height: 300px;
+        width: 700px;
+    }
+}
+
+
+@media screen and (max-width:808px) {
+    .firstSection {
+        height: 1200px;
+        padding: 50px;
+    }
+
+    #firstBox,
+    #secondBox {
+        height: 250px;
+        width: 600px;
+    }
+}
+
+
+
+@media screen and (max-width:716px) {
+    .firstSection {
+        height: 1300px;
+        padding: 50px;
+    }
+
+    #firstBox,
+    #secondBox {
+        height: 200px;
+        width: 500px;
+    }
+}
+
+
+@media screen and (max-width:611px) {
+
+    .firstSection {
+        flex-direction: column;
+        height: 1600px;
+        padding: 50px;
+    }
+
+    footer {
+        font-size: smaller;
+    }
+
+    footer h3 {
+        font-size: small;
+    }
+
+    #navigation div {
+        width: 400px;
+    }
+
+    #firstBox,
+    #secondBox {
+        height: 150px;
+        width: 400px;
+    }
+}
+
+
+@media screen and (max-width:560px) {
+
+    section {
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .firstSection {
+        height: 2000px;
+        padding: 50px;
+    }
+
+    #bigBtn {
+        width: 200px;
+        height: 40px;
+    }
+
+    .secondSection {
+        font-size: small;
+    }
+
+    .footerMail,
+    #name,
+    #email {
+        width: 150px;
+        height: 30px;
+    }
+
+
+    .footerMail textarea:nth-of-type(1) {
+        width: 150px;
+    }
+
+    #navigation div {
+        width: 350px;
+    }
+
+    #firstBox,
+    #secondBox {
+        height: 100px;
+        width: 300px;
+    }
+
+    #fullName,
+    #fullEmail {
+        width: 200px;
+        height: 35px;
+
+    }
+
+
+    #contactFormBtn,
+    #comment {
+        width: 200px;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width:430px) {
+    .imgContainer {
+        margin: 0
+    }
+
+    .aboutmeContainer {
+        margin: 0;
+    }
+}
+
+
+
+@media screen and (max-width:424px) {
+
+    section {
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .firstSection {
+        font-size: 1em;
+        height: 1500px;
+        width: 400px;
+        padding: 50px;
+    }
+
+    main {
+        font-size: 0.5em;
+    }
+}
+
+
+
+
+@media screen and (max-width:375px) {
+
+    .footerMail,
+    #name,
+    #email {
+        width: 140px;
+        height: 30px;
+    }
+
+
+    .footerMail textarea:nth-of-type(1) {
+        width: 140px;
+    }
+
+    #navigation div {
+        width: 300px;
+    }
+
+
+    #firstBox,
+    #secondBox {
+        height: 80px;
+        width: 200px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:280px) {
+
+    #navigation {
+        width: 500px;
+    }
+
+
+    .firstSection {
+        font-size: 0.5em;
+        height: 1500px;
+        width: 400px;
+        padding: 50px;
+    }
+
+    main {
+        font-size: 0.5em;
+    }
+
+
+
+    footer {
+        width: 400px;
+    }
+
+    .footerContact {
+        font-size: 0.6em;
+    }
+
+
+    .footerMail button,
+    #name,
+    #email {
+        width: 100px;
+        height: 28px;
+        font-size: x-small;
+    }
+
+
+    .footerMail textarea:nth-of-type(1) {
+        width: 100px;
+    }
+
+    #navigation div {
+        width: 200px;
+    }
+
+
+    #firstBox,
+    #secondBox {
+        height: 100px;
+        width: 110px;
+        font-size: smaller;
+    }
+
+    #fullName,
+    #fullEmail,
+    #comment,
+    #contactFormBtn {
+        width: 100px;
+
+
+    }
+
+}

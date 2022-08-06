@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task.css">
+    <title>Register</title>
+
+    <style>
+        body {
+            background-color: blueviolet;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+
+
+
+
+
+    <main>
+        <div class="regBox">
+
+            <form action="#" method="get" class="regForm">
+
+                <h1>Sign Up</h1>
+                <hr><br><br>
+
+
+                <div>
+                    <!-- <label for="regFirstName">First Name</label>  -->
+                    <input type="text" id="regFirstname" placeholder="First Name" required>
+                </div> <br>
+
+                <div>
+                    <!-- <label for="lastname">Last Name</label> -->
+                    <input type="text" id="regLastname" placeholder="Last Name" required>
+                </div><br>
+
+                <div>
+                    <!-- <label for="phone">Phone</label> -->
+                    <input type="text" name="phone" id="phone" inputmode="numeric" placeholder="Phone number" required>
+                </div> <br>
+
+                <div>
+                    <!-- <label for="gender">Gender</label> -->
+                    <select name="Gender" id="gender">
+                        <option value="select">Select Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Not Sure">Not Sure</option>
+                    </select>
+
+                </div> <br>
+
+                <div>
+                    <!-- <label for="country">Country</label> -->
+                    <input type="text" name="country" id="country" placeholder="Country" required>
+
+                </div> <br>
+
+                <div>
+                    <!-- <label for="state">State/Province</label> -->
+                    <input type="text" name="state" id="state" placeholder="State/Province" required>
+                </div> <br>
+
+                <div>
+                    <!-- <label for="regEmail">Email</label> -->
+                    <input type="email" name="email" id="regEmail" placeholder="Email" required>
+                </div> <br>
+
+                <div>
+                    <!-- <label for="password">Password</label> -->
+                    <input type="password" name="password" id="password" placeholder="Password" minlength="8" required>
+                </div> <br>
+
+                <div>
+                    <!-- <label for="confirm-password">Confirm password</label> -->
+                    <input type="password" name="password" id="confirm-password" placeholder="Confirm Password"
+                        minlength="8" required>
+                </div> <br>
+
+
+                <div>
+                    <input type="checkbox" name="" id="checkbox">
+                    <label for="checkbox"> <small> I agree to the terms of use & privacy policy </small></label>
+
+                </div><br><br>
+
+                <div class="regBtn">
+                    <button type="submit">Sign Up</button>
+                </div>
+
+
+
+
+            </form>
+
+        </div>
+    </main>
+
+</body>
+
+</html>
